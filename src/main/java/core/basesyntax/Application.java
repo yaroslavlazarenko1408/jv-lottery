@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 public class Application {
     public static void main(String[] args) {
         Ball[] balls = new Ball[3];
@@ -8,7 +7,7 @@ public class Application {
             balls[i] = lottery.getRandomBall();
         }
         for (Ball ball : balls) {
-            System.out.println(ball.name());
+            System.out.println(ball.toString());
         }
     }
 }
